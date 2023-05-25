@@ -1,0 +1,16 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+<test name="Test Case">
+    <groups>
+        <run>
+            <include name="group1"></include>
+            <exclude name="group2"></exclude>
+        </run>
+    </groups>
+    <classes>
+        <class name="PolygonGeneratorTest"/>
+        <class name="VisibilityPolygonTest"/>
+    </classes>
+</test>
+</suite>
